@@ -1,0 +1,107 @@
+
+body{
+	background-color: black;
+}
+
+.grid-container{
+	width: 1050px;
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	display: grid;
+	grid-gap: 10px;
+	grid-template-areas: 
+	'header header header header header header'
+    'menu main main main main rightt'
+    'footer footer footer footer footer footer';
+    grid-template-rows: 280px 300px 200px;
+    background-color: white;
+}
+
+.grid-container > div {
+  text-align: center;
+  padding: 20px 0;
+  }
+
+.item1 { grid-area: header;
+	text-align: center; }
+.item2 { grid-area: menu;
+	}
+.item3 { grid-area: rightt; }
+.item4 {grid-area: footer;}
+
+
+.afbeelding1{
+	width: 360px;
+	height: 150px;
+	margin-bottom: 20px;
+}
+
+.afbeelding2{
+	float: left;
+	width: 420px;
+	height: 200px;
+}
+
+.afbeelding3{
+	position: absolute;
+	top: 329px;
+	right: 235px;
+	width: 420px;
+	height: 200px;
+}
+
+ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;	
+	background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a{
+	display: block;
+	color: white;
+	margin-left: 10px;
+  	padding: 20px 100px;
+ 	text-decoration: none;
+ 	position: relative;
+}
+
+h1{
+	margin-right: 100px;
+}
+
+h2{
+	position: absolute;
+	top: 500px;
+	right: 360px;
+	font-size: 2em;
+}
+
+.lorem1{
+	border-left: 20px solid white;
+	border-right: 100px solid white;
+	width: 350px;
+	font-size: 15px;	
+}
+
+.lorem2{
+	margin-top: 255px;
+	border-left: 20px solid white;
+	border-right: 20px solid white;
+	width: 350px;
+	font-size: 15px;	
+}
+
+footer{
+	margin-top: 155px;
+	background-color: #333;
+	color: white;
+	padding: 5px;
+
+}
