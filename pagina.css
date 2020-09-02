@@ -69,16 +69,22 @@ ul{
 }
 
 li {
-  float: left;
+  	float: left;
 }
 
 li a{
 	display: block;
 	color: white;
-	margin-left: 10px;
+	margin-left: 20px;
   	padding: 20px 80px;
  	text-decoration: none;
  	position: relative;
+ 	background-color: lightblue;
+}
+
+li a:hover {
+	background-color: white;
+	color: black;
 }
 
 .schoen{
@@ -151,12 +157,19 @@ footer{
 	float: left;
 	background-color: grey;
 	margin-bottom: 50px;
+	padding: 20px 0;
 }
 
 .vierkant2{
 	width: 400px;
-	background-color: green; 
+	background-color: grey; 
 	margin-left: 560px;
+	padding: 20px 0;
+}
+
+.lettertype2{
+	font-family: 'Noto Sans JP', sans-serif;
+	background-color: white;
 }
 
 /*Pagina 4 */
