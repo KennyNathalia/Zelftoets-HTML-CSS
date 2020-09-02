@@ -8,6 +8,8 @@ body{
 }
 
 .grid-container{
+	margin: 0;
+	padding: 0;
 	width: 960px;
 	margin-top: 20px;
 	margin-left: auto;
@@ -32,6 +34,10 @@ body{
 .item3 { grid-area: rightt; }
 .item4 { grid-area: footer; }
 .item5 { grid-area: main; }
+
+.lettertype{
+	font-family: 'Noto Sans JP', sans-serif;
+}
 
 /*Pagina 1 */
 .afbeelding1{
@@ -77,11 +83,13 @@ li a{
 
 .schoen{
 	margin-right: 90px;
+	font-family: 'Noto Sans JP', sans-serif;
 }
 
 #schoen2{
 	margin-top: 34px;
 	margin-right: 30px;
+	font-family: 'Noto Sans JP', sans-serif;
 }
 
 h2{
@@ -112,6 +120,17 @@ footer{
 	color: white;
 	padding: 5px;
 
+}
+
+/*Pagina 2 */
+.vans{
+	width: 300px;
+	height: 600px;
+}
+
+.vans2{
+	width: 300px;
+	height: 200px;
 }
 
 /*Pagina 3 */
